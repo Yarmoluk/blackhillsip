@@ -1,0 +1,10 @@
+{
+  "title": "Intellectual Property Management & Legal Technology",
+  "description": "A comprehensive learning graph covering the complete lifecycle of IP management, from patent prosecution and trademark registration through portfolio maintenance, renewals, and strategic decision-making, with emphasis on modern AI-powered tools and automation technologies.",
+  "creator": "Black Hills IP",
+  "date": "2026-02-07",
+  "version": "1.0",
+  "format": "Learning Graph JSON v1.0",
+  "schema": "https://raw.githubusercontent.com/dmccreary/learning-graphs/refs/heads/main/src/schema/learning-graph-schema.json",
+  "license": "CC BY-NC-SA 4.0 DEED"
+}

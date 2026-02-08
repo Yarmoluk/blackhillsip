@@ -1,0 +1,67 @@
+{
+  "FOUND": {
+    "range": [1, 9],
+    "keywords": ["intellectual property", "patent law fund", "trademark law fund", "copyright law fund", "trade secret prot"],
+    "exclude": []
+  },
+  "PAT": {
+    "range": [10, 49],
+    "keywords": ["utility patent", "design patent", "plant patent", "provisional", "non-provisional", "patent claims", "independent claim", "dependent claim", "claim draft", "patent spec", "patent abstract", "patent drawing", "prior art", "novelty", "non-obvious", "utility require", "patentability", "patent search", "freedom to op", "patent prosecution", "patent examiner", "patent examination", "office action", "non-final", "final rejection", "claim amend", "examiner inter", "request for cont", "continuation", "divisional", "cip application", "appeal", "ptab", "notice of allow", "issue fee", "patent grant", "patent term", "maintenance fee"],
+    "exclude": ["docket", "ai", "machine", "portfolio", "renew", "analytics dash"]
+  },
+  "TM": {
+    "range": [81, 95],
+    "keywords": ["trademark", "nice class", "madrid", "service mark", "trade dress"],
+    "exclude": []
+  },
+  "DOCK": {
+    "range": [50, 61],
+    "keywords": ["docket", "deadline manage", "pair system", "patent center", "tsdr", "filing receipt", "patent office data", "uspto corres"],
+    "exclude": ["machine-guided", "ai"]
+  },
+  "INTL": {
+    "range": [62, 80],
+    "keywords": ["priority date", "convention", "paris convention", "pct", "international search", "written opinion", "national phase", "designated office", "epo", "japan patent", "china patent", "cnipa", "korean ip", "kipo", "ip5", "foreign filing", "translation req", "foreign agent", "patent cooperation", "wipo", "trips", "harmoniz", "regional patent", "african ip", "eurasian"],
+    "exclude": []
+  },
+  "IDS": {
+    "range": [96, 101],
+    "keywords": ["information disclosure", "ids require", "duty of candor", "prior art citation", "reference entry", "citation manage"],
+    "exclude": []
+  },
+  "QA": {
+    "range": [102, 108],
+    "keywords": ["proofreading", "ocr tech", "bibliographic", "data verif", "quality control prot", "error detect", "document compar"],
+    "exclude": ["ai-powered proof"]
+  },
+  "PORT": {
+    "range": [109, 124],
+    "keywords": ["renewal", "annuity", "grace period", "surcharge", "portfolio", "valuation", "landscape", "competitive intel", "analytics", "strategy align", "business value", "pruning", "reporting"],
+    "exclude": ["ai", "machine", "software", "platform", "predictive", "dashboard"]
+  },
+  "TECH": {
+    "range": [125, 134],
+    "keywords": ["ip management software", "patricia", "foundation ip", "appcoll", "cpi platform", "software eval", "data migration", "system integ", "api connect", "workflow autom", "cloud-based", "mobile ip"],
+    "exclude": ["ai"]
+  },
+  "AI": {
+    "range": [135, 150],
+    "keywords": ["ai in ip", "machine learning", "natural language", "generative ai", "automated prosecution", "ai claim", "ai prior art", "predictive analytics", "machine-guided", "ai document", "ai-powered", "large language", "training data", "ai accuracy", "human-ai", "ai ethics"],
+    "exclude": []
+  },
+  "OUTS": {
+    "range": [151, 158],
+    "keywords": ["outsourc", "vendor manage", "service level", "communication protocol", "confidentiality agree"],
+    "exclude": []
+  },
+  "SEC": {
+    "range": [159, 170],
+    "keywords": ["data security", "cybersecurity", "access control", "encryption", "data privacy", "gdpr", "soc 2", "professional respon", "conflict of interest", "client commun", "malpractice", "ethical billing", "regulatory compliance", "export control", "sanctions"],
+    "exclude": []
+  },
+  "OPS": {
+    "range": [181, 200],
+    "keywords": ["analytics dashboard", "key performance", "workload", "cost tracking", "budget manage", "process optim", "lean ip", "six sigma", "change manage", "digital transform", "training program", "onboarding", "continuing ed", "certification", "best practice", "technology roadmap", "future of"],
+    "exclude": []
+  }
+}

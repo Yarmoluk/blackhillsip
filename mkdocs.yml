@@ -1,0 +1,102 @@
+site_name: Black Hills IP
+site_description: Intellectual Property Management & Legal Technology
+site_url: https://yarmoluk.github.io/blackhillsip/
+
+repo_name: Yarmoluk/blackhillsip
+repo_url: https://github.com/Yarmoluk/blackhillsip
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: amber
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: amber
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.copy
+  icon:
+    repo: fontawesome/brands/github
+
+plugins:
+  - search
+  - tags
+
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - tables
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/Yarmoluk/blackhillsip
+
+copyright: Copyright &copy; 2026 Black Hills IP
+
+nav:
+  - Home: index.md
+  - Course Description: course-description.md
+  - Chapters:
+    - List of Chapters: chapters/index.md
+    - 1. IP Fundamentals: chapters/01-ip-fundamentals/index.md
+    - 2. Patent Applications & Claims: chapters/02-patent-applications-claims-patentability/index.md
+    - 3. Patent Prosecution Through Grant: chapters/03-patent-prosecution-through-grant/index.md
+    - 4. IP Docketing & Deadlines: chapters/04-ip-docketing-deadline-management/index.md
+    - 5. Trademark Registration: chapters/05-trademark-registration-management/index.md
+    - 6. International Filing & PCT: chapters/06-international-filing-pct/index.md
+    - 7. Global Offices & Treaties: chapters/07-global-patent-offices-ip-treaties/index.md
+    - 8. IDS & Patent Quality: chapters/08-information-disclosure-patent-quality/index.md
+    - 9. Renewals & Portfolio Mgmt: chapters/09-patent-renewals-portfolio-management/index.md
+    - 10. IP Software & Platforms: chapters/10-ip-management-software-platforms/index.md
+    - 11. AI & Machine Learning: chapters/11-ai-machine-learning-in-ip/index.md
+    - 12. Ethics & Security: chapters/12-ethics-security-professional-development/index.md
+    - 13. Outsourcing & Operations: chapters/13-ip-outsourcing-analytics-operations/index.md
+  - Learning Graph:
+    - Introduction: learning-graph/index.md
+    - Course Description Assessment: learning-graph/course-description-assessment.md
+    - Concept List: learning-graph/concept-list.md
+    - Concept Taxonomy: learning-graph/concept-taxonomy.md
+    - Quality Metrics: learning-graph/quality-metrics.md
+    - Taxonomy Distribution: learning-graph/taxonomy-distribution.md

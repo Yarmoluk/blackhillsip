@@ -1,0 +1,2290 @@
+{
+  "metadata": {
+    "title": "Intellectual Property Management & Legal Technology",
+    "description": "A comprehensive learning graph covering the complete lifecycle of IP management, from patent prosecution and trademark registration through portfolio maintenance, renewals, and strategic decision-making, with emphasis on modern AI-powered tools and automation technologies.",
+    "creator": "Black Hills IP",
+    "date": "2026-02-07",
+    "version": "1.0",
+    "format": "Learning Graph JSON v1.0",
+    "schema": "https://raw.githubusercontent.com/dmccreary/learning-graphs/refs/heads/main/src/schema/learning-graph-schema.json",
+    "license": "CC BY-NC-SA 4.0 DEED"
+  },
+  "groups": {
+    "FOUND": {
+      "classifierName": "Foundation Concepts",
+      "color": "LightCoral",
+      "font": {
+        "color": "white"
+      }
+    },
+    "PAT": {
+      "classifierName": "Patent Prosecution",
+      "color": "PeachPuff",
+      "font": {
+        "color": "black"
+      }
+    },
+    "TM": {
+      "classifierName": "Trademark Management",
+      "color": "LightYellow",
+      "font": {
+        "color": "black"
+      }
+    },
+    "DOCK": {
+      "classifierName": "Docketing Systems",
+      "color": "Honeydew",
+      "font": {
+        "color": "black"
+      }
+    },
+    "INTL": {
+      "classifierName": "International IP",
+      "color": "PaleTurquoise",
+      "font": {
+        "color": "black"
+      }
+    },
+    "IDS": {
+      "classifierName": "Disclosure & Citations",
+      "color": "LightSteelBlue",
+      "font": {
+        "color": "black"
+      }
+    },
+    "QA": {
+      "classifierName": "Quality Assurance",
+      "color": "Lavender",
+      "font": {
+        "color": "black"
+      }
+    },
+    "PORT": {
+      "classifierName": "Portfolio Management",
+      "color": "PaleGreen",
+      "font": {
+        "color": "black"
+      }
+    },
+    "TECH": {
+      "classifierName": "Legal Technology",
+      "color": "PowderBlue",
+      "font": {
+        "color": "black"
+      }
+    },
+    "AI": {
+      "classifierName": "AI & Machine Learning",
+      "color": "Thistle",
+      "font": {
+        "color": "black"
+      }
+    },
+    "OUTS": {
+      "classifierName": "Outsourcing & Services",
+      "color": "MistyRose",
+      "font": {
+        "color": "black"
+      }
+    },
+    "SEC": {
+      "classifierName": "Security & Compliance",
+      "color": "Aquamarine",
+      "font": {
+        "color": "black"
+      }
+    },
+    "OPS": {
+      "classifierName": "Operations & Strategy",
+      "color": "LightPink",
+      "font": {
+        "color": "black"
+      }
+    }
+  },
+  "nodes": [
+    {
+      "id": 1,
+      "label": "Intellectual Property",
+      "group": "FOUND",
+      "shape": "box"
+    },
+    {
+      "id": 2,
+      "label": "Patent",
+      "group": "FOUND"
+    },
+    {
+      "id": 3,
+      "label": "Trademark",
+      "group": "FOUND"
+    },
+    {
+      "id": 4,
+      "label": "Copyright",
+      "group": "FOUND"
+    },
+    {
+      "id": 5,
+      "label": "Trade Secret",
+      "group": "FOUND"
+    },
+    {
+      "id": 6,
+      "label": "Patent Law Fundamentals",
+      "group": "FOUND"
+    },
+    {
+      "id": 7,
+      "label": "Trademark Law Fundamentals",
+      "group": "FOUND"
+    },
+    {
+      "id": 8,
+      "label": "Copyright Law Fundamentals",
+      "group": "FOUND"
+    },
+    {
+      "id": 9,
+      "label": "Trade Secret Protection",
+      "group": "FOUND"
+    },
+    {
+      "id": 10,
+      "label": "Utility Patent",
+      "group": "PAT"
+    },
+    {
+      "id": 11,
+      "label": "Design Patent",
+      "group": "PAT"
+    },
+    {
+      "id": 12,
+      "label": "Plant Patent",
+      "group": "PAT"
+    },
+    {
+      "id": 13,
+      "label": "Provisional Application",
+      "group": "PAT"
+    },
+    {
+      "id": 14,
+      "label": "Non-Provisional Application",
+      "group": "PAT"
+    },
+    {
+      "id": 15,
+      "label": "Patent Claims",
+      "group": "PAT"
+    },
+    {
+      "id": 16,
+      "label": "Independent Claims",
+      "group": "PAT"
+    },
+    {
+      "id": 17,
+      "label": "Dependent Claims",
+      "group": "PAT"
+    },
+    {
+      "id": 18,
+      "label": "Claim Drafting Strategy",
+      "group": "PAT"
+    },
+    {
+      "id": 19,
+      "label": "Patent Specification",
+      "group": "PAT"
+    },
+    {
+      "id": 20,
+      "label": "Patent Abstract",
+      "group": "PAT"
+    },
+    {
+      "id": 21,
+      "label": "Patent Drawings",
+      "group": "PAT"
+    },
+    {
+      "id": 22,
+      "label": "Prior Art",
+      "group": "PAT"
+    },
+    {
+      "id": 23,
+      "label": "Novelty",
+      "group": "PAT"
+    },
+    {
+      "id": 24,
+      "label": "Non-Obviousness",
+      "group": "PAT"
+    },
+    {
+      "id": 25,
+      "label": "Utility Requirement",
+      "group": "PAT"
+    },
+    {
+      "id": 26,
+      "label": "Patentability Analysis",
+      "group": "PAT"
+    },
+    {
+      "id": 27,
+      "label": "Patent Search",
+      "group": "PAT"
+    },
+    {
+      "id": 28,
+      "label": "Freedom to Operate",
+      "group": "PAT"
+    },
+    {
+      "id": 29,
+      "label": "Patent Prosecution",
+      "group": "PAT"
+    },
+    {
+      "id": 30,
+      "label": "USPTO",
+      "group": "PAT"
+    },
+    {
+      "id": 31,
+      "label": "Patent Examiner",
+      "group": "PAT"
+    },
+    {
+      "id": 32,
+      "label": "Patent Examination Process",
+      "group": "PAT"
+    },
+    {
+      "id": 33,
+      "label": "Office Action",
+      "group": "PAT"
+    },
+    {
+      "id": 34,
+      "label": "Non-Final Rejection",
+      "group": "PAT"
+    },
+    {
+      "id": 35,
+      "label": "Final Rejection",
+      "group": "PAT"
+    },
+    {
+      "id": 36,
+      "label": "Claim Amendment",
+      "group": "PAT"
+    },
+    {
+      "id": 37,
+      "label": "Examiner Interview",
+      "group": "PAT"
+    },
+    {
+      "id": 38,
+      "label": "Request for Continued Exam",
+      "group": "PAT"
+    },
+    {
+      "id": 39,
+      "label": "Continuation Application",
+      "group": "PAT"
+    },
+    {
+      "id": 40,
+      "label": "Divisional Application",
+      "group": "PAT"
+    },
+    {
+      "id": 41,
+      "label": "CIP Application",
+      "group": "PAT"
+    },
+    {
+      "id": 42,
+      "label": "Appeal Process",
+      "group": "PAT"
+    },
+    {
+      "id": 43,
+      "label": "PTAB",
+      "group": "PAT"
+    },
+    {
+      "id": 44,
+      "label": "Notice of Allowance",
+      "group": "PAT"
+    },
+    {
+      "id": 45,
+      "label": "Issue Fee",
+      "group": "PAT"
+    },
+    {
+      "id": 46,
+      "label": "Patent Grant",
+      "group": "PAT"
+    },
+    {
+      "id": 47,
+      "label": "Patent Term",
+      "group": "PAT"
+    },
+    {
+      "id": 48,
+      "label": "Patent Term Adjustment",
+      "group": "PAT"
+    },
+    {
+      "id": 49,
+      "label": "Patent Maintenance Fees",
+      "group": "PAT"
+    },
+    {
+      "id": 50,
+      "label": "IP Docketing",
+      "group": "DOCK"
+    },
+    {
+      "id": 51,
+      "label": "Docketing System",
+      "group": "DOCK"
+    },
+    {
+      "id": 52,
+      "label": "Automated Docketing",
+      "group": "DOCK"
+    },
+    {
+      "id": 53,
+      "label": "Manual Docketing",
+      "group": "DOCK"
+    },
+    {
+      "id": 54,
+      "label": "Deadline Management",
+      "group": "DOCK"
+    },
+    {
+      "id": 55,
+      "label": "Docketing Rules",
+      "group": "DOCK"
+    },
+    {
+      "id": 56,
+      "label": "USPTO Correspondence",
+      "group": "DOCK"
+    },
+    {
+      "id": 57,
+      "label": "Patent Office Data Feeds",
+      "group": "DOCK"
+    },
+    {
+      "id": 58,
+      "label": "PAIR System",
+      "group": "DOCK"
+    },
+    {
+      "id": 59,
+      "label": "Patent Center",
+      "group": "DOCK"
+    },
+    {
+      "id": 60,
+      "label": "TSDR System",
+      "group": "DOCK"
+    },
+    {
+      "id": 61,
+      "label": "Filing Receipt",
+      "group": "DOCK"
+    },
+    {
+      "id": 62,
+      "label": "Priority Date",
+      "group": "INTL"
+    },
+    {
+      "id": 63,
+      "label": "Convention Priority",
+      "group": "INTL"
+    },
+    {
+      "id": 64,
+      "label": "Paris Convention",
+      "group": "INTL"
+    },
+    {
+      "id": 65,
+      "label": "PCT Application",
+      "group": "INTL"
+    },
+    {
+      "id": 66,
+      "label": "PCT Filing Procedure",
+      "group": "INTL"
+    },
+    {
+      "id": 67,
+      "label": "International Search Report",
+      "group": "INTL"
+    },
+    {
+      "id": 68,
+      "label": "Written Opinion",
+      "group": "INTL"
+    },
+    {
+      "id": 69,
+      "label": "National Phase Entry",
+      "group": "INTL"
+    },
+    {
+      "id": 70,
+      "label": "PCT Deadlines",
+      "group": "INTL"
+    },
+    {
+      "id": 71,
+      "label": "Designated Office",
+      "group": "INTL"
+    },
+    {
+      "id": 72,
+      "label": "EPO Filing",
+      "group": "INTL"
+    },
+    {
+      "id": 73,
+      "label": "EPO Examination",
+      "group": "INTL"
+    },
+    {
+      "id": 74,
+      "label": "Japan Patent Office",
+      "group": "INTL"
+    },
+    {
+      "id": 75,
+      "label": "China Patent Office (CNIPA)",
+      "group": "INTL"
+    },
+    {
+      "id": 76,
+      "label": "Korean IP Office (KIPO)",
+      "group": "INTL"
+    },
+    {
+      "id": 77,
+      "label": "IP5 Offices",
+      "group": "INTL"
+    },
+    {
+      "id": 78,
+      "label": "Foreign Filing License",
+      "group": "INTL"
+    },
+    {
+      "id": 79,
+      "label": "Translation Requirements",
+      "group": "INTL"
+    },
+    {
+      "id": 80,
+      "label": "Foreign Agent Selection",
+      "group": "INTL"
+    },
+    {
+      "id": 81,
+      "label": "Trademark Search",
+      "group": "TM"
+    },
+    {
+      "id": 82,
+      "label": "Trademark Classification",
+      "group": "TM"
+    },
+    {
+      "id": 83,
+      "label": "Nice Classification",
+      "group": "TM"
+    },
+    {
+      "id": 84,
+      "label": "Trademark Application",
+      "group": "TM"
+    },
+    {
+      "id": 85,
+      "label": "Trademark Prosecution",
+      "group": "TM"
+    },
+    {
+      "id": 86,
+      "label": "Trademark Office Action",
+      "group": "PAT"
+    },
+    {
+      "id": 87,
+      "label": "Trademark Registration",
+      "group": "TM"
+    },
+    {
+      "id": 88,
+      "label": "Trademark Renewal",
+      "group": "TM"
+    },
+    {
+      "id": 89,
+      "label": "Madrid Protocol",
+      "group": "TM"
+    },
+    {
+      "id": 90,
+      "label": "Madrid System Filing",
+      "group": "TM"
+    },
+    {
+      "id": 91,
+      "label": "International Trademark Reg",
+      "group": "TM"
+    },
+    {
+      "id": 92,
+      "label": "Trademark Monitoring",
+      "group": "TM"
+    },
+    {
+      "id": 93,
+      "label": "Trademark Portfolio",
+      "group": "TM"
+    },
+    {
+      "id": 94,
+      "label": "Service Mark",
+      "group": "TM"
+    },
+    {
+      "id": 95,
+      "label": "Trade Dress",
+      "group": "TM"
+    },
+    {
+      "id": 96,
+      "label": "Information Disclosure Stmt",
+      "group": "IDS"
+    },
+    {
+      "id": 97,
+      "label": "IDS Requirements",
+      "group": "IDS"
+    },
+    {
+      "id": 98,
+      "label": "Duty of Candor",
+      "group": "IDS"
+    },
+    {
+      "id": 99,
+      "label": "Prior Art Citation",
+      "group": "PAT"
+    },
+    {
+      "id": 100,
+      "label": "Reference Entry Workflow",
+      "group": "IDS"
+    },
+    {
+      "id": 101,
+      "label": "Citation Management",
+      "group": "IDS"
+    },
+    {
+      "id": 102,
+      "label": "Patent Proofreading",
+      "group": "QA"
+    },
+    {
+      "id": 103,
+      "label": "OCR Technology",
+      "group": "QA"
+    },
+    {
+      "id": 104,
+      "label": "Bibliographic Data",
+      "group": "QA"
+    },
+    {
+      "id": 105,
+      "label": "Data Verification",
+      "group": "QA"
+    },
+    {
+      "id": 106,
+      "label": "Quality Control Protocols",
+      "group": "QA"
+    },
+    {
+      "id": 107,
+      "label": "Error Detection",
+      "group": "QA"
+    },
+    {
+      "id": 108,
+      "label": "Document Comparison",
+      "group": "QA"
+    },
+    {
+      "id": 109,
+      "label": "Patent Renewal Management",
+      "group": "PORT"
+    },
+    {
+      "id": 110,
+      "label": "Annuity Payment",
+      "group": "PORT"
+    },
+    {
+      "id": 111,
+      "label": "Renewal Deadlines",
+      "group": "PORT"
+    },
+    {
+      "id": 112,
+      "label": "Grace Period",
+      "group": "PORT"
+    },
+    {
+      "id": 113,
+      "label": "Surcharge Fees",
+      "group": "PORT"
+    },
+    {
+      "id": 114,
+      "label": "Automated Renewal Systems",
+      "group": "PORT"
+    },
+    {
+      "id": 115,
+      "label": "Renewal Analytics",
+      "group": "PORT"
+    },
+    {
+      "id": 116,
+      "label": "Portfolio Pruning",
+      "group": "PORT"
+    },
+    {
+      "id": 117,
+      "label": "IP Portfolio Management",
+      "group": "PORT"
+    },
+    {
+      "id": 118,
+      "label": "Portfolio Valuation",
+      "group": "PORT"
+    },
+    {
+      "id": 119,
+      "label": "Patent Landscape Analysis",
+      "group": "PORT"
+    },
+    {
+      "id": 120,
+      "label": "Competitive Intelligence",
+      "group": "PORT"
+    },
+    {
+      "id": 121,
+      "label": "Portfolio Analytics",
+      "group": "PORT"
+    },
+    {
+      "id": 122,
+      "label": "IP Strategy Alignment",
+      "group": "PORT"
+    },
+    {
+      "id": 123,
+      "label": "Business Value Assessment",
+      "group": "PORT"
+    },
+    {
+      "id": 124,
+      "label": "Portfolio Reporting",
+      "group": "INTL"
+    },
+    {
+      "id": 125,
+      "label": "IP Management Software",
+      "group": "TECH"
+    },
+    {
+      "id": 126,
+      "label": "Patricia Platform",
+      "group": "TECH"
+    },
+    {
+      "id": 127,
+      "label": "Foundation IP Platform",
+      "group": "TECH"
+    },
+    {
+      "id": 128,
+      "label": "AppColl Platform",
+      "group": "TECH"
+    },
+    {
+      "id": 129,
+      "label": "CPI Platform",
+      "group": "TECH"
+    },
+    {
+      "id": 130,
+      "label": "IP Software Evaluation",
+      "group": "TECH"
+    },
+    {
+      "id": 131,
+      "label": "Data Migration",
+      "group": "TECH"
+    },
+    {
+      "id": 132,
+      "label": "System Integration",
+      "group": "TECH"
+    },
+    {
+      "id": 133,
+      "label": "API Connectivity",
+      "group": "TECH"
+    },
+    {
+      "id": 134,
+      "label": "Workflow Automation",
+      "group": "TECH"
+    },
+    {
+      "id": 135,
+      "label": "AI in IP Management",
+      "group": "AI"
+    },
+    {
+      "id": 136,
+      "label": "Machine Learning for IP",
+      "group": "AI"
+    },
+    {
+      "id": 137,
+      "label": "Natural Language Processing",
+      "group": "AI"
+    },
+    {
+      "id": 138,
+      "label": "Generative AI for IP",
+      "group": "AI"
+    },
+    {
+      "id": 139,
+      "label": "Automated Prosecution Tools",
+      "group": "AI"
+    },
+    {
+      "id": 140,
+      "label": "AI Claim Analysis",
+      "group": "AI"
+    },
+    {
+      "id": 141,
+      "label": "AI Prior Art Search",
+      "group": "AI"
+    },
+    {
+      "id": 142,
+      "label": "Predictive Analytics for IP",
+      "group": "AI"
+    },
+    {
+      "id": 143,
+      "label": "Machine-Guided Docketing",
+      "group": "AI"
+    },
+    {
+      "id": 144,
+      "label": "AI Document Classification",
+      "group": "AI"
+    },
+    {
+      "id": 145,
+      "label": "AI-Powered Proofreading",
+      "group": "AI"
+    },
+    {
+      "id": 146,
+      "label": "Large Language Models",
+      "group": "AI"
+    },
+    {
+      "id": 147,
+      "label": "Training Data for IP AI",
+      "group": "AI"
+    },
+    {
+      "id": 148,
+      "label": "AI Accuracy Validation",
+      "group": "AI"
+    },
+    {
+      "id": 149,
+      "label": "Human-AI Collaboration",
+      "group": "AI"
+    },
+    {
+      "id": 150,
+      "label": "AI Ethics in Legal Practice",
+      "group": "AI"
+    },
+    {
+      "id": 151,
+      "label": "IP Outsourcing",
+      "group": "OUTS"
+    },
+    {
+      "id": 152,
+      "label": "Outsourcing Evaluation",
+      "group": "PORT"
+    },
+    {
+      "id": 153,
+      "label": "Vendor Management",
+      "group": "OUTS"
+    },
+    {
+      "id": 154,
+      "label": "Service Level Agreements",
+      "group": "OUTS"
+    },
+    {
+      "id": 155,
+      "label": "Outsourcing Cost Analysis",
+      "group": "OUTS"
+    },
+    {
+      "id": 156,
+      "label": "Quality Assurance for SLA",
+      "group": "OUTS"
+    },
+    {
+      "id": 157,
+      "label": "Communication Protocols",
+      "group": "OUTS"
+    },
+    {
+      "id": 158,
+      "label": "Confidentiality Agreements",
+      "group": "OUTS"
+    },
+    {
+      "id": 159,
+      "label": "IP Data Security",
+      "group": "SEC"
+    },
+    {
+      "id": 160,
+      "label": "Cybersecurity for IP",
+      "group": "SEC"
+    },
+    {
+      "id": 161,
+      "label": "Access Control",
+      "group": "SEC"
+    },
+    {
+      "id": 162,
+      "label": "Encryption Standards",
+      "group": "SEC"
+    },
+    {
+      "id": 163,
+      "label": "Data Privacy Regulations",
+      "group": "SEC"
+    },
+    {
+      "id": 164,
+      "label": "GDPR Compliance",
+      "group": "SEC"
+    },
+    {
+      "id": 165,
+      "label": "SOC 2 Compliance",
+      "group": "SEC"
+    },
+    {
+      "id": 166,
+      "label": "Professional Responsibility",
+      "group": "SEC"
+    },
+    {
+      "id": 167,
+      "label": "Conflict of Interest",
+      "group": "SEC"
+    },
+    {
+      "id": 168,
+      "label": "Client Communication",
+      "group": "SEC"
+    },
+    {
+      "id": 169,
+      "label": "Malpractice Prevention",
+      "group": "SEC"
+    },
+    {
+      "id": 170,
+      "label": "Ethical Billing Practices",
+      "group": "SEC"
+    },
+    {
+      "id": 171,
+      "label": "Patent Cooperation Treaty",
+      "group": "INTL"
+    },
+    {
+      "id": 172,
+      "label": "WIPO",
+      "group": "INTL"
+    },
+    {
+      "id": 173,
+      "label": "TRIPs Agreement",
+      "group": "INTL"
+    },
+    {
+      "id": 174,
+      "label": "Patent Harmonization",
+      "group": "INTL"
+    },
+    {
+      "id": 175,
+      "label": "Regional Patent Systems",
+      "group": "INTL"
+    },
+    {
+      "id": 176,
+      "label": "African IP Organization",
+      "group": "INTL"
+    },
+    {
+      "id": 177,
+      "label": "Eurasian Patent System",
+      "group": "INTL"
+    },
+    {
+      "id": 178,
+      "label": "IP Regulatory Compliance",
+      "group": "SEC"
+    },
+    {
+      "id": 179,
+      "label": "Export Control for IP",
+      "group": "SEC"
+    },
+    {
+      "id": 180,
+      "label": "Sanctions Screening",
+      "group": "SEC"
+    },
+    {
+      "id": 181,
+      "label": "Patent Analytics Dashboard",
+      "group": "OPS"
+    },
+    {
+      "id": 182,
+      "label": "Key Performance Indicators",
+      "group": "OPS"
+    },
+    {
+      "id": 183,
+      "label": "Workload Forecasting",
+      "group": "OPS"
+    },
+    {
+      "id": 184,
+      "label": "Cost Tracking",
+      "group": "OPS"
+    },
+    {
+      "id": 185,
+      "label": "Budget Management for IP",
+      "group": "OPS"
+    },
+    {
+      "id": 186,
+      "label": "Process Optimization",
+      "group": "OPS"
+    },
+    {
+      "id": 187,
+      "label": "Lean IP Operations",
+      "group": "OPS"
+    },
+    {
+      "id": 188,
+      "label": "Six Sigma for IP",
+      "group": "OPS"
+    },
+    {
+      "id": 189,
+      "label": "Change Management",
+      "group": "OPS"
+    },
+    {
+      "id": 190,
+      "label": "Digital Transformation in IP",
+      "group": "OPS"
+    },
+    {
+      "id": 191,
+      "label": "Cloud-Based IP Solutions",
+      "group": "TECH"
+    },
+    {
+      "id": 192,
+      "label": "Mobile IP Management",
+      "group": "TECH"
+    },
+    {
+      "id": 193,
+      "label": "Remote Work for IP Teams",
+      "group": "OPS"
+    },
+    {
+      "id": 194,
+      "label": "Training Program Design",
+      "group": "OPS"
+    },
+    {
+      "id": 195,
+      "label": "Onboarding IP Staff",
+      "group": "OPS"
+    },
+    {
+      "id": 196,
+      "label": "Continuing Education",
+      "group": "OPS"
+    },
+    {
+      "id": 197,
+      "label": "IP Certification Programs",
+      "group": "OPS"
+    },
+    {
+      "id": 198,
+      "label": "Industry Best Practices",
+      "group": "OPS"
+    },
+    {
+      "id": 199,
+      "label": "IP Technology Roadmap",
+      "group": "OPS"
+    },
+    {
+      "id": 200,
+      "label": "Future of IP Management",
+      "group": "OPS"
+    }
+  ],
+  "edges": [
+    {
+      "from": 2,
+      "to": 1
+    },
+    {
+      "from": 3,
+      "to": 1
+    },
+    {
+      "from": 4,
+      "to": 1
+    },
+    {
+      "from": 5,
+      "to": 1
+    },
+    {
+      "from": 6,
+      "to": 2
+    },
+    {
+      "from": 7,
+      "to": 3
+    },
+    {
+      "from": 8,
+      "to": 4
+    },
+    {
+      "from": 9,
+      "to": 5
+    },
+    {
+      "from": 10,
+      "to": 6
+    },
+    {
+      "from": 11,
+      "to": 6
+    },
+    {
+      "from": 12,
+      "to": 6
+    },
+    {
+      "from": 13,
+      "to": 6
+    },
+    {
+      "from": 14,
+      "to": 6
+    },
+    {
+      "from": 14,
+      "to": 13
+    },
+    {
+      "from": 15,
+      "to": 6
+    },
+    {
+      "from": 16,
+      "to": 15
+    },
+    {
+      "from": 17,
+      "to": 15
+    },
+    {
+      "from": 17,
+      "to": 16
+    },
+    {
+      "from": 18,
+      "to": 16
+    },
+    {
+      "from": 18,
+      "to": 17
+    },
+    {
+      "from": 19,
+      "to": 14
+    },
+    {
+      "from": 20,
+      "to": 14
+    },
+    {
+      "from": 21,
+      "to": 14
+    },
+    {
+      "from": 22,
+      "to": 6
+    },
+    {
+      "from": 23,
+      "to": 22
+    },
+    {
+      "from": 24,
+      "to": 22
+    },
+    {
+      "from": 24,
+      "to": 23
+    },
+    {
+      "from": 25,
+      "to": 6
+    },
+    {
+      "from": 26,
+      "to": 23
+    },
+    {
+      "from": 26,
+      "to": 24
+    },
+    {
+      "from": 26,
+      "to": 25
+    },
+    {
+      "from": 27,
+      "to": 22
+    },
+    {
+      "from": 28,
+      "to": 27
+    },
+    {
+      "from": 28,
+      "to": 26
+    },
+    {
+      "from": 29,
+      "to": 14
+    },
+    {
+      "from": 29,
+      "to": 18
+    },
+    {
+      "from": 30,
+      "to": 6
+    },
+    {
+      "from": 31,
+      "to": 30
+    },
+    {
+      "from": 32,
+      "to": 29
+    },
+    {
+      "from": 32,
+      "to": 31
+    },
+    {
+      "from": 33,
+      "to": 32
+    },
+    {
+      "from": 34,
+      "to": 33
+    },
+    {
+      "from": 35,
+      "to": 33
+    },
+    {
+      "from": 35,
+      "to": 34
+    },
+    {
+      "from": 36,
+      "to": 33
+    },
+    {
+      "from": 36,
+      "to": 18
+    },
+    {
+      "from": 37,
+      "to": 33
+    },
+    {
+      "from": 37,
+      "to": 31
+    },
+    {
+      "from": 38,
+      "to": 35
+    },
+    {
+      "from": 39,
+      "to": 29
+    },
+    {
+      "from": 40,
+      "to": 29
+    },
+    {
+      "from": 41,
+      "to": 29
+    },
+    {
+      "from": 41,
+      "to": 39
+    },
+    {
+      "from": 42,
+      "to": 35
+    },
+    {
+      "from": 43,
+      "to": 42
+    },
+    {
+      "from": 43,
+      "to": 30
+    },
+    {
+      "from": 44,
+      "to": 32
+    },
+    {
+      "from": 44,
+      "to": 36
+    },
+    {
+      "from": 45,
+      "to": 44
+    },
+    {
+      "from": 46,
+      "to": 45
+    },
+    {
+      "from": 47,
+      "to": 46
+    },
+    {
+      "from": 48,
+      "to": 47
+    },
+    {
+      "from": 48,
+      "to": 32
+    },
+    {
+      "from": 49,
+      "to": 46
+    },
+    {
+      "from": 50,
+      "to": 29
+    },
+    {
+      "from": 50,
+      "to": 30
+    },
+    {
+      "from": 51,
+      "to": 50
+    },
+    {
+      "from": 52,
+      "to": 51
+    },
+    {
+      "from": 53,
+      "to": 51
+    },
+    {
+      "from": 54,
+      "to": 50
+    },
+    {
+      "from": 54,
+      "to": 51
+    },
+    {
+      "from": 55,
+      "to": 50
+    },
+    {
+      "from": 55,
+      "to": 54
+    },
+    {
+      "from": 56,
+      "to": 30
+    },
+    {
+      "from": 56,
+      "to": 33
+    },
+    {
+      "from": 57,
+      "to": 56
+    },
+    {
+      "from": 57,
+      "to": 52
+    },
+    {
+      "from": 58,
+      "to": 30
+    },
+    {
+      "from": 58,
+      "to": 56
+    },
+    {
+      "from": 59,
+      "to": 30
+    },
+    {
+      "from": 59,
+      "to": 58
+    },
+    {
+      "from": 60,
+      "to": 30
+    },
+    {
+      "from": 60,
+      "to": 3
+    },
+    {
+      "from": 61,
+      "to": 14
+    },
+    {
+      "from": 61,
+      "to": 30
+    },
+    {
+      "from": 62,
+      "to": 14
+    },
+    {
+      "from": 63,
+      "to": 62
+    },
+    {
+      "from": 64,
+      "to": 63
+    },
+    {
+      "from": 65,
+      "to": 64
+    },
+    {
+      "from": 65,
+      "to": 14
+    },
+    {
+      "from": 66,
+      "to": 65
+    },
+    {
+      "from": 67,
+      "to": 66
+    },
+    {
+      "from": 68,
+      "to": 67
+    },
+    {
+      "from": 69,
+      "to": 66
+    },
+    {
+      "from": 69,
+      "to": 68
+    },
+    {
+      "from": 70,
+      "to": 66
+    },
+    {
+      "from": 70,
+      "to": 54
+    },
+    {
+      "from": 71,
+      "to": 65
+    },
+    {
+      "from": 72,
+      "to": 69
+    },
+    {
+      "from": 72,
+      "to": 71
+    },
+    {
+      "from": 73,
+      "to": 72
+    },
+    {
+      "from": 74,
+      "to": 69
+    },
+    {
+      "from": 74,
+      "to": 71
+    },
+    {
+      "from": 75,
+      "to": 69
+    },
+    {
+      "from": 75,
+      "to": 71
+    },
+    {
+      "from": 76,
+      "to": 69
+    },
+    {
+      "from": 76,
+      "to": 71
+    },
+    {
+      "from": 77,
+      "to": 30
+    },
+    {
+      "from": 77,
+      "to": 72
+    },
+    {
+      "from": 77,
+      "to": 74
+    },
+    {
+      "from": 77,
+      "to": 75
+    },
+    {
+      "from": 77,
+      "to": 76
+    },
+    {
+      "from": 78,
+      "to": 65
+    },
+    {
+      "from": 78,
+      "to": 30
+    },
+    {
+      "from": 79,
+      "to": 69
+    },
+    {
+      "from": 80,
+      "to": 69
+    },
+    {
+      "from": 81,
+      "to": 7
+    },
+    {
+      "from": 82,
+      "to": 7
+    },
+    {
+      "from": 83,
+      "to": 82
+    },
+    {
+      "from": 84,
+      "to": 81
+    },
+    {
+      "from": 84,
+      "to": 83
+    },
+    {
+      "from": 85,
+      "to": 84
+    },
+    {
+      "from": 85,
+      "to": 30
+    },
+    {
+      "from": 86,
+      "to": 85
+    },
+    {
+      "from": 87,
+      "to": 86
+    },
+    {
+      "from": 88,
+      "to": 87
+    },
+    {
+      "from": 89,
+      "to": 7
+    },
+    {
+      "from": 90,
+      "to": 89
+    },
+    {
+      "from": 90,
+      "to": 84
+    },
+    {
+      "from": 91,
+      "to": 90
+    },
+    {
+      "from": 92,
+      "to": 87
+    },
+    {
+      "from": 93,
+      "to": 87
+    },
+    {
+      "from": 93,
+      "to": 92
+    },
+    {
+      "from": 94,
+      "to": 3
+    },
+    {
+      "from": 95,
+      "to": 3
+    },
+    {
+      "from": 96,
+      "to": 29
+    },
+    {
+      "from": 96,
+      "to": 22
+    },
+    {
+      "from": 97,
+      "to": 96
+    },
+    {
+      "from": 97,
+      "to": 30
+    },
+    {
+      "from": 98,
+      "to": 96
+    },
+    {
+      "from": 98,
+      "to": 166
+    },
+    {
+      "from": 99,
+      "to": 96
+    },
+    {
+      "from": 99,
+      "to": 22
+    },
+    {
+      "from": 100,
+      "to": 96
+    },
+    {
+      "from": 100,
+      "to": 99
+    },
+    {
+      "from": 101,
+      "to": 100
+    },
+    {
+      "from": 102,
+      "to": 46
+    },
+    {
+      "from": 102,
+      "to": 19
+    },
+    {
+      "from": 103,
+      "to": 102
+    },
+    {
+      "from": 104,
+      "to": 102
+    },
+    {
+      "from": 105,
+      "to": 102
+    },
+    {
+      "from": 106,
+      "to": 105
+    },
+    {
+      "from": 107,
+      "to": 103
+    },
+    {
+      "from": 107,
+      "to": 106
+    },
+    {
+      "from": 108,
+      "to": 102
+    },
+    {
+      "from": 108,
+      "to": 103
+    },
+    {
+      "from": 109,
+      "to": 49
+    },
+    {
+      "from": 109,
+      "to": 54
+    },
+    {
+      "from": 110,
+      "to": 109
+    },
+    {
+      "from": 111,
+      "to": 109
+    },
+    {
+      "from": 111,
+      "to": 54
+    },
+    {
+      "from": 112,
+      "to": 111
+    },
+    {
+      "from": 113,
+      "to": 112
+    },
+    {
+      "from": 114,
+      "to": 109
+    },
+    {
+      "from": 114,
+      "to": 52
+    },
+    {
+      "from": 115,
+      "to": 109
+    },
+    {
+      "from": 115,
+      "to": 121
+    },
+    {
+      "from": 116,
+      "to": 109
+    },
+    {
+      "from": 116,
+      "to": 118
+    },
+    {
+      "from": 117,
+      "to": 46
+    },
+    {
+      "from": 117,
+      "to": 87
+    },
+    {
+      "from": 118,
+      "to": 117
+    },
+    {
+      "from": 119,
+      "to": 27
+    },
+    {
+      "from": 119,
+      "to": 117
+    },
+    {
+      "from": 120,
+      "to": 119
+    },
+    {
+      "from": 121,
+      "to": 117
+    },
+    {
+      "from": 121,
+      "to": 119
+    },
+    {
+      "from": 122,
+      "to": 117
+    },
+    {
+      "from": 122,
+      "to": 123
+    },
+    {
+      "from": 123,
+      "to": 118
+    },
+    {
+      "from": 124,
+      "to": 121
+    },
+    {
+      "from": 124,
+      "to": 181
+    },
+    {
+      "from": 125,
+      "to": 51
+    },
+    {
+      "from": 125,
+      "to": 117
+    },
+    {
+      "from": 126,
+      "to": 125
+    },
+    {
+      "from": 127,
+      "to": 125
+    },
+    {
+      "from": 128,
+      "to": 125
+    },
+    {
+      "from": 129,
+      "to": 125
+    },
+    {
+      "from": 130,
+      "to": 125
+    },
+    {
+      "from": 130,
+      "to": 126
+    },
+    {
+      "from": 130,
+      "to": 127
+    },
+    {
+      "from": 130,
+      "to": 128
+    },
+    {
+      "from": 130,
+      "to": 129
+    },
+    {
+      "from": 131,
+      "to": 125
+    },
+    {
+      "from": 131,
+      "to": 130
+    },
+    {
+      "from": 132,
+      "to": 125
+    },
+    {
+      "from": 132,
+      "to": 133
+    },
+    {
+      "from": 133,
+      "to": 125
+    },
+    {
+      "from": 134,
+      "to": 125
+    },
+    {
+      "from": 134,
+      "to": 52
+    },
+    {
+      "from": 135,
+      "to": 125
+    },
+    {
+      "from": 136,
+      "to": 135
+    },
+    {
+      "from": 137,
+      "to": 136
+    },
+    {
+      "from": 138,
+      "to": 136
+    },
+    {
+      "from": 138,
+      "to": 146
+    },
+    {
+      "from": 139,
+      "to": 138
+    },
+    {
+      "from": 139,
+      "to": 29
+    },
+    {
+      "from": 140,
+      "to": 138
+    },
+    {
+      "from": 140,
+      "to": 15
+    },
+    {
+      "from": 141,
+      "to": 136
+    },
+    {
+      "from": 141,
+      "to": 27
+    },
+    {
+      "from": 142,
+      "to": 136
+    },
+    {
+      "from": 142,
+      "to": 121
+    },
+    {
+      "from": 143,
+      "to": 136
+    },
+    {
+      "from": 143,
+      "to": 52
+    },
+    {
+      "from": 144,
+      "to": 137
+    },
+    {
+      "from": 145,
+      "to": 138
+    },
+    {
+      "from": 145,
+      "to": 102
+    },
+    {
+      "from": 146,
+      "to": 136
+    },
+    {
+      "from": 147,
+      "to": 136
+    },
+    {
+      "from": 148,
+      "to": 136
+    },
+    {
+      "from": 148,
+      "to": 106
+    },
+    {
+      "from": 149,
+      "to": 135
+    },
+    {
+      "from": 149,
+      "to": 148
+    },
+    {
+      "from": 150,
+      "to": 135
+    },
+    {
+      "from": 150,
+      "to": 166
+    },
+    {
+      "from": 151,
+      "to": 117
+    },
+    {
+      "from": 152,
+      "to": 151
+    },
+    {
+      "from": 153,
+      "to": 151
+    },
+    {
+      "from": 153,
+      "to": 152
+    },
+    {
+      "from": 154,
+      "to": 153
+    },
+    {
+      "from": 155,
+      "to": 152
+    },
+    {
+      "from": 155,
+      "to": 184
+    },
+    {
+      "from": 156,
+      "to": 154
+    },
+    {
+      "from": 156,
+      "to": 106
+    },
+    {
+      "from": 157,
+      "to": 153
+    },
+    {
+      "from": 158,
+      "to": 153
+    },
+    {
+      "from": 158,
+      "to": 159
+    },
+    {
+      "from": 159,
+      "to": 125
+    },
+    {
+      "from": 160,
+      "to": 159
+    },
+    {
+      "from": 161,
+      "to": 160
+    },
+    {
+      "from": 162,
+      "to": 160
+    },
+    {
+      "from": 163,
+      "to": 159
+    },
+    {
+      "from": 164,
+      "to": 163
+    },
+    {
+      "from": 165,
+      "to": 160
+    },
+    {
+      "from": 165,
+      "to": 163
+    },
+    {
+      "from": 166,
+      "to": 1
+    },
+    {
+      "from": 167,
+      "to": 166
+    },
+    {
+      "from": 168,
+      "to": 166
+    },
+    {
+      "from": 169,
+      "to": 166
+    },
+    {
+      "from": 169,
+      "to": 167
+    },
+    {
+      "from": 170,
+      "to": 166
+    },
+    {
+      "from": 171,
+      "to": 65
+    },
+    {
+      "from": 172,
+      "to": 171
+    },
+    {
+      "from": 172,
+      "to": 89
+    },
+    {
+      "from": 173,
+      "to": 172
+    },
+    {
+      "from": 174,
+      "to": 173
+    },
+    {
+      "from": 174,
+      "to": 77
+    },
+    {
+      "from": 175,
+      "to": 174
+    },
+    {
+      "from": 176,
+      "to": 175
+    },
+    {
+      "from": 177,
+      "to": 175
+    },
+    {
+      "from": 178,
+      "to": 166
+    },
+    {
+      "from": 178,
+      "to": 163
+    },
+    {
+      "from": 179,
+      "to": 178
+    },
+    {
+      "from": 180,
+      "to": 178
+    },
+    {
+      "from": 180,
+      "to": 179
+    },
+    {
+      "from": 181,
+      "to": 121
+    },
+    {
+      "from": 181,
+      "to": 125
+    },
+    {
+      "from": 182,
+      "to": 181
+    },
+    {
+      "from": 183,
+      "to": 182
+    },
+    {
+      "from": 183,
+      "to": 121
+    },
+    {
+      "from": 184,
+      "to": 182
+    },
+    {
+      "from": 185,
+      "to": 184
+    },
+    {
+      "from": 186,
+      "to": 134
+    },
+    {
+      "from": 186,
+      "to": 182
+    },
+    {
+      "from": 187,
+      "to": 186
+    },
+    {
+      "from": 188,
+      "to": 186
+    },
+    {
+      "from": 189,
+      "to": 186
+    },
+    {
+      "from": 189,
+      "to": 190
+    },
+    {
+      "from": 190,
+      "to": 135
+    },
+    {
+      "from": 190,
+      "to": 134
+    },
+    {
+      "from": 191,
+      "to": 125
+    },
+    {
+      "from": 191,
+      "to": 160
+    },
+    {
+      "from": 192,
+      "to": 191
+    },
+    {
+      "from": 193,
+      "to": 191
+    },
+    {
+      "from": 193,
+      "to": 192
+    },
+    {
+      "from": 194,
+      "to": 196
+    },
+    {
+      "from": 195,
+      "to": 194
+    },
+    {
+      "from": 196,
+      "to": 1
+    },
+    {
+      "from": 197,
+      "to": 196
+    },
+    {
+      "from": 198,
+      "to": 186
+    },
+    {
+      "from": 199,
+      "to": 190
+    },
+    {
+      "from": 199,
+      "to": 200
+    },
+    {
+      "from": 200,
+      "to": 190
+    },
+    {
+      "from": 200,
+      "to": 135
+    }
+  ]
+}

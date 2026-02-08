@@ -1,0 +1,201 @@
+ConceptID,ConceptLabel,Dependencies,TaxonomyID
+1,Intellectual Property,,FOUND
+2,Patent,1,FOUND
+3,Trademark,1,FOUND
+4,Copyright,1,FOUND
+5,Trade Secret,1,FOUND
+6,Patent Law Fundamentals,2,FOUND
+7,Trademark Law Fundamentals,3,FOUND
+8,Copyright Law Fundamentals,4,FOUND
+9,Trade Secret Protection,5,FOUND
+10,Utility Patent,6,PAT
+11,Design Patent,6,PAT
+12,Plant Patent,6,PAT
+13,Provisional Application,6,PAT
+14,Non-Provisional Application,6|13,PAT
+15,Patent Claims,6,PAT
+16,Independent Claims,15,PAT
+17,Dependent Claims,15|16,PAT
+18,Claim Drafting Strategy,16|17,PAT
+19,Patent Specification,14,PAT
+20,Patent Abstract,14,PAT
+21,Patent Drawings,14,PAT
+22,Prior Art,6,PAT
+23,Novelty,22,PAT
+24,Non-Obviousness,22|23,PAT
+25,Utility Requirement,6,PAT
+26,Patentability Analysis,23|24|25,PAT
+27,Patent Search,22,PAT
+28,Freedom to Operate,27|26,PAT
+29,Patent Prosecution,14|18,PAT
+30,USPTO,6,PAT
+31,Patent Examiner,30,PAT
+32,Patent Examination Process,29|31,PAT
+33,Office Action,32,PAT
+34,Non-Final Rejection,33,PAT
+35,Final Rejection,33|34,PAT
+36,Claim Amendment,33|18,PAT
+37,Examiner Interview,33|31,PAT
+38,Request for Continued Exam,35,PAT
+39,Continuation Application,29,PAT
+40,Divisional Application,29,PAT
+41,CIP Application,29|39,PAT
+42,Appeal Process,35,PAT
+43,PTAB,42|30,PAT
+44,Notice of Allowance,32|36,PAT
+45,Issue Fee,44,PAT
+46,Patent Grant,45,PAT
+47,Patent Term,46,PAT
+48,Patent Term Adjustment,47|32,PAT
+49,Patent Maintenance Fees,46,PAT
+50,IP Docketing,29|30,DOCK
+51,Docketing System,50,DOCK
+52,Automated Docketing,51,DOCK
+53,Manual Docketing,51,DOCK
+54,Deadline Management,50|51,DOCK
+55,Docketing Rules,50|54,DOCK
+56,USPTO Correspondence,30|33,DOCK
+57,Patent Office Data Feeds,56|52,DOCK
+58,PAIR System,30|56,DOCK
+59,Patent Center,30|58,DOCK
+60,TSDR System,30|3,DOCK
+61,Filing Receipt,14|30,DOCK
+62,Priority Date,14,INTL
+63,Convention Priority,62,INTL
+64,Paris Convention,63,INTL
+65,PCT Application,64|14,INTL
+66,PCT Filing Procedure,65,INTL
+67,International Search Report,66,INTL
+68,Written Opinion,67,INTL
+69,National Phase Entry,66|68,INTL
+70,PCT Deadlines,66|54,INTL
+71,Designated Office,65,INTL
+72,EPO Filing,69|71,INTL
+73,EPO Examination,72,INTL
+74,Japan Patent Office,69|71,INTL
+75,China Patent Office (CNIPA),69|71,INTL
+76,Korean IP Office (KIPO),69|71,INTL
+77,IP5 Offices,30|72|74|75|76,INTL
+78,Foreign Filing License,65|30,INTL
+79,Translation Requirements,69,INTL
+80,Foreign Agent Selection,69,INTL
+81,Trademark Search,7,TM
+82,Trademark Classification,7,TM
+83,Nice Classification,82,TM
+84,Trademark Application,81|83,TM
+85,Trademark Prosecution,84|30,TM
+86,Trademark Office Action,85,PAT
+87,Trademark Registration,86,TM
+88,Trademark Renewal,87,TM
+89,Madrid Protocol,7,TM
+90,Madrid System Filing,89|84,TM
+91,International Trademark Reg,90,TM
+92,Trademark Monitoring,87,TM
+93,Trademark Portfolio,87|92,TM
+94,Service Mark,3,TM
+95,Trade Dress,3,TM
+96,Information Disclosure Stmt,29|22,IDS
+97,IDS Requirements,96|30,IDS
+98,Duty of Candor,96|166,IDS
+99,Prior Art Citation,96|22,PAT
+100,Reference Entry Workflow,96|99,IDS
+101,Citation Management,100,IDS
+102,Patent Proofreading,46|19,QA
+103,OCR Technology,102,QA
+104,Bibliographic Data,102,QA
+105,Data Verification,102,QA
+106,Quality Control Protocols,105,QA
+107,Error Detection,103|106,QA
+108,Document Comparison,102|103,QA
+109,Patent Renewal Management,49|54,PORT
+110,Annuity Payment,109,PORT
+111,Renewal Deadlines,109|54,PORT
+112,Grace Period,111,PORT
+113,Surcharge Fees,112,PORT
+114,Automated Renewal Systems,109|52,PORT
+115,Renewal Analytics,109|121,PORT
+116,Portfolio Pruning,109|118,PORT
+117,IP Portfolio Management,46|87,PORT
+118,Portfolio Valuation,117,PORT
+119,Patent Landscape Analysis,27|117,PORT
+120,Competitive Intelligence,119,PORT
+121,Portfolio Analytics,117|119,PORT
+122,IP Strategy Alignment,117|123,PORT
+123,Business Value Assessment,118,PORT
+124,Portfolio Reporting,121|181,INTL
+125,IP Management Software,51|117,TECH
+126,Patricia Platform,125,TECH
+127,Foundation IP Platform,125,TECH
+128,AppColl Platform,125,TECH
+129,CPI Platform,125,TECH
+130,IP Software Evaluation,125|126|127|128|129,TECH
+131,Data Migration,125|130,TECH
+132,System Integration,125|133,TECH
+133,API Connectivity,125,TECH
+134,Workflow Automation,125|52,TECH
+135,AI in IP Management,125,AI
+136,Machine Learning for IP,135,AI
+137,Natural Language Processing,136,AI
+138,Generative AI for IP,136|146,AI
+139,Automated Prosecution Tools,138|29,AI
+140,AI Claim Analysis,138|15,AI
+141,AI Prior Art Search,136|27,AI
+142,Predictive Analytics for IP,136|121,AI
+143,Machine-Guided Docketing,136|52,AI
+144,AI Document Classification,137,AI
+145,AI-Powered Proofreading,138|102,AI
+146,Large Language Models,136,AI
+147,Training Data for IP AI,136,AI
+148,AI Accuracy Validation,136|106,AI
+149,Human-AI Collaboration,135|148,AI
+150,AI Ethics in Legal Practice,135|166,AI
+151,IP Outsourcing,117,OUTS
+152,Outsourcing Evaluation,151,PORT
+153,Vendor Management,151|152,OUTS
+154,Service Level Agreements,153,OUTS
+155,Outsourcing Cost Analysis,152|184,OUTS
+156,Quality Assurance for SLA,154|106,OUTS
+157,Communication Protocols,153,OUTS
+158,Confidentiality Agreements,153|159,OUTS
+159,IP Data Security,125,SEC
+160,Cybersecurity for IP,159,SEC
+161,Access Control,160,SEC
+162,Encryption Standards,160,SEC
+163,Data Privacy Regulations,159,SEC
+164,GDPR Compliance,163,SEC
+165,SOC 2 Compliance,160|163,SEC
+166,Professional Responsibility,1,SEC
+167,Conflict of Interest,166,SEC
+168,Client Communication,166,SEC
+169,Malpractice Prevention,166|167,SEC
+170,Ethical Billing Practices,166,SEC
+171,Patent Cooperation Treaty,65,INTL
+172,WIPO,171|89,INTL
+173,TRIPs Agreement,172,INTL
+174,Patent Harmonization,173|77,INTL
+175,Regional Patent Systems,174,INTL
+176,African IP Organization,175,INTL
+177,Eurasian Patent System,175,INTL
+178,IP Regulatory Compliance,166|163,SEC
+179,Export Control for IP,178,SEC
+180,Sanctions Screening,178|179,SEC
+181,Patent Analytics Dashboard,121|125,OPS
+182,Key Performance Indicators,181,OPS
+183,Workload Forecasting,182|121,OPS
+184,Cost Tracking,182,OPS
+185,Budget Management for IP,184,OPS
+186,Process Optimization,134|182,OPS
+187,Lean IP Operations,186,OPS
+188,Six Sigma for IP,186,OPS
+189,Change Management,186|190,OPS
+190,Digital Transformation in IP,135|134,OPS
+191,Cloud-Based IP Solutions,125|160,TECH
+192,Mobile IP Management,191,TECH
+193,Remote Work for IP Teams,191|192,OPS
+194,Training Program Design,196,OPS
+195,Onboarding IP Staff,194,OPS
+196,Continuing Education,1,OPS
+197,IP Certification Programs,196,OPS
+198,Industry Best Practices,186,OPS
+199,IP Technology Roadmap,190|200,OPS
+200,Future of IP Management,190|135,OPS
