@@ -18,7 +18,7 @@ must understand all the concepts that they point to.
 
 Explore the full learning graph interactively — search, filter by category, and click on concepts to see their dependencies.
 
-[View Interactive Learning Graph](graph.md){ .md-button .md-button--primary }
+[View Interactive Learning Graph](/blackhillsip/learning-graph/graph/){ .md-button .md-button--primary }
 
 ---
 

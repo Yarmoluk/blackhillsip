@@ -15,6 +15,6 @@ This interactive visualization displays all 200 concepts and 295 dependencies in
 - **Click** a node to see its details
 - **Scroll** to zoom, **drag** to pan
 
-<iframe src="../learning-graph/vis-network.html" style="width: 100%; height: 80vh; border: 1px solid #ddd; border-radius: 8px;"></iframe>
+<iframe src="/blackhillsip/learning-graph/vis-network.html" style="width: 100%; height: 80vh; border: 1px solid #ddd; border-radius: 8px;"></iframe>
 
-[Open full screen](../learning-graph/vis-network.html){ .md-button }
+[Open full screen](/blackhillsip/learning-graph/vis-network.html){ .md-button }

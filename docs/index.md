@@ -22,9 +22,9 @@ This textbook is designed for IP professionals, paralegals, patent attorneys, co
 
 Explore how all 200 concepts connect across 13 chapters. Search, filter by category, and click any concept to see its dependencies.
 
-<iframe src="learning-graph/vis-network.html" style="width: 100%; height: 600px; border: 1px solid #ddd; border-radius: 8px;"></iframe>
+<iframe src="/blackhillsip/learning-graph/vis-network.html" style="width: 100%; height: 600px; border: 1px solid #ddd; border-radius: 8px;"></iframe>
 
-[Open Full Screen](learning-graph/vis-network.html){ .md-button } [View Details](learning-graph/graph.md){ .md-button }
+[Open Full Screen](/blackhillsip/learning-graph/vis-network.html){ .md-button } [View Details](learning-graph/graph.md){ .md-button }
 
 ## Getting Started
 
