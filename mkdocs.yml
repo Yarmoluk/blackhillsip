@@ -95,6 +95,7 @@ nav:
     - 13. Outsourcing & Operations: chapters/13-ip-outsourcing-analytics-operations/index.md
   - Learning Graph:
     - Introduction: learning-graph/index.md
+    - Interactive Graph: learning-graph/graph.md
     - Course Description Assessment: learning-graph/course-description-assessment.md
     - Concept List: learning-graph/concept-list.md
     - Concept Taxonomy: learning-graph/concept-taxonomy.md

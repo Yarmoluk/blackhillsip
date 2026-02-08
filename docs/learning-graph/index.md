@@ -14,6 +14,14 @@ understanding these foundational prerequisite concepts.  At the far right
 we have the most advanced concepts in the course.  To master these concepts you
 must understand all the concepts that they point to.
 
+## Interactive Visualization
+
+Explore the full learning graph interactively — search, filter by category, and click on concepts to see their dependencies.
+
+[View Interactive Learning Graph](graph.md){ .md-button .md-button--primary }
+
+---
+
 Here are other files used by the learning graph.
 
 ## Course Description
